@@ -1,0 +1,16 @@
+<div class="form-container">
+  <form (submit)="onSubmit()" #ratingForm="ngForm">
+    <mat-form-field appearance="fill">
+      <mat-label>{{ 'rating.ratingIdentifier' | translate}}</mat-label>
+      <input matInput [placeholder]="'rating.ticketIdentifierPlaceholder' | translate" name="ticketIdentifier" [(ngModel)]="ticketIdentifier" required>
+    </mat-form-field>
+    <mat-form-field appearance="fill">
+      <mat-label>{{ 'rating.ratingScore' | translate }}</mat-label>
+      <input matInput [placeholder]="'rating.ratingScore' | translate" type="number" name="ratingScore" [(ngModel)]="ratings.rating" min="1" max="5" required>
+    </mat-form-field>
+    <div>
+      <button [disabled]="ratingForm.invalid" mat-button>{{'rating.add' | translate}}</button>
+      <button (click)="onCancel()" mat-button>{{'rating.cancel' | translate}}</button>
+    </div>
+  </form>
+</div>

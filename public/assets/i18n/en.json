@@ -1,0 +1,47 @@
+{
+  "toolbar": {
+    "home": "Home",
+    "Rating": "Rating"
+  },
+  "event": {
+    "event_id": "Event ID",
+    "title": "Registered Events",
+    "name": "Event Name",
+    "description": "Description",
+    "scheduledAt": "Scheduled At",
+    "checkedIndAttendees": "Checked In Attendees",
+    "averageRating": "Average Rating",
+    "checkIn": "Check In"
+  },
+  "attendee": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "checkedInAt": "Checked In At"
+  },
+  "home": {
+    "title": "Home",
+    "content": "Welcome to \nEventify"
+  },
+  "page_not_found": {
+    "title": "404 - Page Not Found",
+    "message_firstPart": "The requested URL",
+    "message_secondPart": "was not found on this server.",
+    "button": "Return to Home"
+  },
+  "rating": {
+    "title": "Event Rating",
+    "AddRating": "Add a Rating for the Event you attended.",
+    "TicketIdentifier": "Ticket Identifier",
+    "TicketIdentifierRequired": "Ticket Identifier is required",
+    "Rating": "Rating",
+    "RatingRequired": "Rating is required",
+    "RatingRange": "Rating must be between 1 and 5",
+    "RateEvent": "Rate Event",
+    "SubmissionMessage": "Thank you for your rating.",
+    "ratingScore":"Rating Score",
+    "ratingIdentifier": "Ticker Identifier",
+    "ticketIdentifierPlaceholder": "Ticket Identifier",
+    "add": "Add",
+    "cancel": "Cancel"
+  }
+}

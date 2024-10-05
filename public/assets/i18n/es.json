@@ -1,0 +1,47 @@
+{
+  "toolbar": {
+    "home": "Inicio",
+    "Rating": "Rating"
+  },
+  "event": {
+    "event_id": "ID del Evento",
+    "title": "Eventos Registrados",
+    "name": "Nombre del Evento",
+    "description": "Descripción",
+    "scheduledAt": "Programado Para",
+    "checkedIndAttendees": "Asistentes Registrados",
+    "averageRating": "Rating Promedio",
+    "checkIn": "Registro"
+  },
+  "attendee": {
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "checkedInAt": "Registrado en"
+  },
+  "home": {
+    "title": "Inicio",
+    "content": "Bienvenido a \nEventify"
+  },
+  "page_not_found": {
+    "title": "404 - Página no Encontrada",
+    "message_firstPart": "La URL solicitada",
+    "message_secondPart": "no se encontró en este servidor.",
+    "button": "Volver a Inicio"
+  },
+  "rating": {
+    "title": "Calificación del Evento",
+    "AddRating": "Añade una calificación para el evento al que asististe.",
+    "TicketIdentifier": "Identificador del Ticket",
+    "TicketIdentifierRequired": "El identificador del ticket es obligatorio",
+    "Rating": "Calificación",
+    "RatingRequired": "La calificación es obligatoria",
+    "RatingRange": "La calificación debe estar entre 1 y 5",
+    "RateEvent": "Calificar Evento",
+    "SubmissionMessage": "Gracias por tu calificación.",
+    "ratingScore": "Puntuación de la Calificación",
+    "ratingIdentifier": "Identificador del Ticket",
+    "ticketIdentifierPlaceholder": "Identificador del Ticket",
+    "add": "Agregar",
+    "cancel": "Cancelar"
+  }
+}

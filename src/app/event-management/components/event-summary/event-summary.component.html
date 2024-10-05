@@ -1,0 +1,15 @@
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-header>
+    <h1>{{ 'event.name' | translate }}: {{ event.name }}</h1>
+  </mat-card-header>
+  <mat-card-content>
+    <p>{{ 'event.description' | translate }}: {{event.description}}</p>
+    <p>{{ 'event.scheduledAt' | translate }}: {{event.scheduledAt}}</p>
+  </mat-card-content>
+  <mat-card-footer class="example-card-footer">
+    <p>{{ 'event.checkedIndAttendees' | translate }}: {{ event.checkedIndAttendees }}</p>
+    <p>{{ 'event.averageRating' | translate }}:
+      {{ event.averageRating && event.averageRating > 0 ? event.averageRating : ('No ratings' | translate) }}
+    </p>
+  </mat-card-footer>
+</mat-card>

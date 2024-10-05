@@ -1,0 +1,43 @@
+.toolbar {
+  background-color: deepskyblue;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+}
+
+.toolbar__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.toolbar__start {
+  display: flex;
+  align-items: center;
+}
+
+.toolbar__logo {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 10px;
+}
+
+.toolbar__center {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.toolbar__center button {
+  margin: 0 10px;
+}
+
+.toolbar__end {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
